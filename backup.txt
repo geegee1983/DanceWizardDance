@@ -1,0 +1,8 @@
+StickFigure sf = new StickFigure();
+Circle c = sf.getHead();
+Triangle t = sf.getBody();
+Rectangle r= sf.getLeg();
+sf.move(0,-1);
+sf.move(50, 0);
+sf.moveBy(50, 'R');
+sf.doSquareDance();
